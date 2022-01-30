@@ -7,13 +7,13 @@
 </head>
 <body>
 
-<form method="post" action="/register" th:object="${registerRequest}">
-    <input type="text" placeholder="First Name" name="firstName" required>
-    <input type="text" placeholder="Last Name" name="lastName" required>
-    <input type="text" placeholder="E-mail" name="email" required>
-    <input type="password" placeholder="Password" name="password" required>
-    <input type="submit" value="Register" name="register">
-</form>
+    <form method="post" action="/register" th:object="${registerRequest}">
+        <input type="text" placeholder="First Name" name="firstName" required>
+        <input type="text" placeholder="Last Name" name="lastName" required>
+        <input type="text" placeholder="E-mail" name="email" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <input type="submit" value="Register" name="register">
+    </form>
 
 </body>
 </html>
