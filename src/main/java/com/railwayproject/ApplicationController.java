@@ -6,18 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ApplicationController {
 
-    @GetMapping("/information")
-    public String getAboutUsPage() {
-        return "about_us";
+    @GetMapping("/search")
+    public String getSearchPage() {
+        return "search_page";
     }
 
-    @GetMapping("/contact")
-    public String getContactPage() {
-        return "contact_us";
-    }
-
-    @GetMapping("/payment")
-    public String getPayment() {
-        return "payment";
-    }
 }

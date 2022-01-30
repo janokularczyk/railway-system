@@ -41,10 +41,9 @@ public class UserController {
         System.out.println("login request " + user);
         User authenticated = userService.authenticate(user.getEmail(), user.getPassword());
         if (authenticated != null) {
-            model.addAttribute("userLogin",
-                    authenticated.getEmail() + ". Nice to see you " +
-                            authenticated.getFirstName() + " " +
-                            authenticated.getLastName() + "!");
+            model.addAttribute("userLogin", authenticated.getEmail());
+            model.addAttribute("userFirstName", authenticated.getFirstName());
+            model.addAttribute("userLastName", authenticated.getLastName());
             return "profile_page";
         } else {
             return "error_page";

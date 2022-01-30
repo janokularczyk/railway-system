@@ -4,7 +4,7 @@ body {
 }
 
 .one {
-    background: url(https://images.pexels.com/photos/3767229/pexels-photo-3767229.jpeg?cs=srgb&dl=pexels-studio-3767229.jpg&fm=jpg);
+    background: url(https://images.pexels.com/photos/5768806/pexels-photo-5768806.jpeg?cs=srgb&dl=pexels-eva-elijas-5768806.jpg&fm=jpg);
     background-size: cover;
 }
 
@@ -14,17 +14,17 @@ section {
     place-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4em;
-    color: orange;
+    color: #426466;
 }
 
 a:hover {
-    color: orange;
+    color: #DEDCD7;
 }
 
 a {
     text-decoration: none;
     z-index: 1;
-    color: yellow;
+    color: #426466;
     white-space: nowrap;
     font-size: 2rem;
     font-weight: bold;

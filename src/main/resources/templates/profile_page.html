@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>User Profile</title>
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" th:href="@{/css/profile.css}">
 </head>
 <body>
-    <h1>Logged as <span th:text="${userLogin}"></span></h1>
-    <a href="/">log out</a>
-    <hr>
-    <a href="/connections">Railway connections</a>
+
+
+    <p>Name: <span th:text="${userFirstName}"></span></p>
+    <p>Surname: <span th:text="${userLastName}"></span></p>
+    <p>E-mail: <span th:text="${userLogin}"></span></p>
+    <form action="/">
+        <input type="submit" value="Log out"/>
+    </form>
+
+
 </body>
 </html>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>ERROR</title>
-    <link rel="stylesheet" href="css/error.css">
+    <link rel="stylesheet" th:href="@{/css/error.css}">
 </head>
 <body>
-  <h1>Incorrect data entered! Please try again.</h1>
-  <a href="/register">Navigate to register</a>
-  <a href="/login">Navigate to login</a>
+
+    <h2>Error Occurred</h2>
+    <p>Incorrect data entered! Please try again.</p>
+    <form action="/">
+        <input type="submit" value="Main Page">
+    </form>
+
 </body>
 </html>
