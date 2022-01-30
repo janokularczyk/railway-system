@@ -1,4 +1,4 @@
-package com.railwayproject.connection;
+package com.railwaysystem.connection;
 
 public class ConnectionSearchCriteria {
     private String from;

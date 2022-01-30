@@ -1,4 +1,4 @@
-package com.railwayproject.user;
+package com.railwaysystem.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.railwayproject.user;
+package com.railwaysystem.user;
 
 import javax.persistence.*;
 import java.util.Objects;

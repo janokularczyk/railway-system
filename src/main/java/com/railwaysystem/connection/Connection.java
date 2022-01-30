@@ -1,4 +1,4 @@
-package com.railwayproject.connection;
+package com.railwaysystem.connection;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

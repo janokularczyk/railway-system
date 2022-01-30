@@ -1,4 +1,4 @@
-package com.railwayproject.user;
+package com.railwaysystem.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.railwayproject.connection;
+package com.railwaysystem.connection;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
